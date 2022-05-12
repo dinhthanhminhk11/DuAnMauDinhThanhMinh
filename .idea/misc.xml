@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1615" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1615" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1615" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.15" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/drawable/khunglogin.xml" value="0.1615" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/drawable/vekhungnhap.xml" value="0.1615" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_add_loan_slip.xml" value="0.10536980749746708" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_librarian.xml" value="0.12" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_loan_slip.xml" value="0.11296859169199595" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_member.xml" value="0.21822916666666667" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_register.xml" value="0.11296859169199595" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_revenue.xml" value="0.176" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_top_most.xml" value="0.10536980749746708" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_up_date_loan_slip.xml" value="0.10612968591691996" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/activity_update_lib.xml" value="0.10536980749746708" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/bottomsheet.xml" value="0.14010416666666667" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/dailogthemsach.xml" value="0.16362530413625304" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/dialogaddkindofbook.xml" value="0.22826086956521738" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/dialogshowloanslip.xml" value="0.11296859169199595" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/dialogthemthanhvien.xml" value="0.22826086956521738" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/fragment_blank.xml" value="0.14114583333333333" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/fragment_book.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/fragment_kindofbook.xml" value="0.22826086956521738" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/fragment_librarian.xml" value="0.22826086956521738" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/fragment_member.xml" value="0.22826086956521738" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/item_book.xml" value="0.14010416666666667" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/item_kindofbook.xml" value="0.14010416666666667" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/item_lib.xml" value="0.14114583333333333" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/item_loanslip.xml" value="0.14114583333333333" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/item_member.xml" value="0.136" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/item_topmost.xml" value="0.14010416666666667" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/showloading.xml" value="0.22826086956521738" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/layout/tool_bar.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.151" />
+        <entry key="..\:/ProjectAndroidJava/BookManagerVer2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.151" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
