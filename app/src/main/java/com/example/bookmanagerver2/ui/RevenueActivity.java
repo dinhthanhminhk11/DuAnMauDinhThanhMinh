@@ -87,7 +87,7 @@ public class RevenueActivity extends AppCompatActivity {
 
         BarDataSet bar_data_set = new BarDataSet(pieChart1 , "LoanSlip");
         bar_data_set.setColors(ColorTemplate.MATERIAL_COLORS);
-        bar_data_set.setValueTextColor(Color.rgb(92 , 224 , 254));
+        bar_data_set.setValueTextColor(Color.rgb(152,4,45));
         bar_data_set.setValueTextSize(16f);
         BarData barData = new BarData(bar_data_set);
         pieChart.setFitBars(true);
@@ -171,10 +171,10 @@ public class RevenueActivity extends AppCompatActivity {
                     tvDaTra.setText("Paid: "+mDaoBook.soluongPhieuDaTra(ngay1.trim(),ngay2.trim()));
                     tvChuaTra.setText("Unpaid: "+mDaoBook.soluongPhieuChuaTra(ngay1.trim(),ngay2.trim()));
                 }
-                dayEnd.setTextColor(Color.rgb(92 , 224 , 254));
-                monthAndYearEnd.setTextColor(Color.rgb(92 , 224 , 254));
-                dayStart.setTextColor(Color.rgb(92 , 224 , 254));
-                monthAndYearStart.setTextColor(Color.rgb(92 , 224 , 254));
+                dayEnd.setTextColor(Color.rgb(152,4,45));
+                monthAndYearEnd.setTextColor(Color.rgb(152,4,45));
+                dayStart.setTextColor(Color.rgb(152,4,45));
+                monthAndYearStart.setTextColor(Color.rgb(152,4,45));
 
 
             }else if( dfm.parse(dateEnd).before(dfm.parse(dateStart))){

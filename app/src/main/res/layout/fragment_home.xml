@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/black"
+    android:background="#E1E2E7"
     android:orientation="vertical"
     tools:context=".ui.Fragment.BookFragment">
 
@@ -27,7 +27,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:text="Book"
-                android:textColor="@color/white"
+                android:textColor="#98042D"
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:text="Management"
-                android:textColor="@color/white"
+                android:textColor="#98042D"
                 android:textSize="25dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -53,7 +53,7 @@
             android:backgroundTint="@null"
             android:backgroundTintMode="@null"
             app:lottie_autoPlay="true"
-            app:lottie_fileName="bookhome.json"
+            app:lottie_fileName="logohomemainver2.json"
             app:lottie_loop="true" />
     </LinearLayout>
 
@@ -69,7 +69,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             app:cardCornerRadius="20dp"
-            app:cardElevation="50dp">
+            >
 
             <RelativeLayout
                 android:foreground="?android:attr/selectableItemBackground"
@@ -80,27 +80,31 @@
                 android:padding="5dp">
 
                 <TextView
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentLeft="true"
-                    android:textStyle="bold"
-                    android:layout_margin="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
                     android:text="Member"
+                    android:textColor="@color/white"
                     android:textSize="18dp"
-                    android:textColor="@color/white"/>
+                    android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/tsMember"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginLeft="15dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"
                     android:text="15"
+                    android:textColor="@color/white"
                     android:textSize="23dp"
-                    android:textColor="@color/white"/>
+                    android:textStyle="bold" />
                 <ImageView
                     android:layout_marginRight="5dp"
                     android:layout_alignParentBottom="true"
@@ -117,7 +121,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             app:cardCornerRadius="20dp"
-            app:cardElevation="50dp">
+            >
 
             <RelativeLayout
                 android:foreground="?android:attr/selectableItemBackground"
@@ -169,7 +173,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             app:cardCornerRadius="20dp"
-            app:cardElevation="50dp">
+            >
 
             <RelativeLayout
                 android:foreground="?android:attr/selectableItemBackground"
@@ -216,7 +220,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             app:cardCornerRadius="20dp"
-            app:cardElevation="50dp">
+            >
 
             <RelativeLayout
                 android:foreground="?android:attr/selectableItemBackground"
@@ -268,7 +272,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             app:cardCornerRadius="20dp"
-            app:cardElevation="50dp">
+            >
 
             <RelativeLayout
                 android:foreground="?android:attr/selectableItemBackground"
@@ -287,18 +291,19 @@
                     android:text="Revenue"
                     android:textSize="18dp"
                     android:textColor="@color/white"/>
+
                 <TextView
                     android:id="@+id/tsRene"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="25dp"
-                    android:layout_marginLeft="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="25dp"
                     android:text="100.000.000 VND"
+                    android:textColor="@color/white"
                     android:textSize="13dp"
-                    android:textColor="@color/white"/>
+                    android:textStyle="bold" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
@@ -308,7 +313,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             app:cardCornerRadius="20dp"
-            app:cardElevation="50dp">
+            >
 
             <RelativeLayout
                 android:foreground="?android:attr/selectableItemBackground"
@@ -327,17 +332,18 @@
                     android:text="Top Most"
                     android:textSize="18dp"
                     android:textColor="@color/white"/>
+
                 <TextView
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginLeft="15dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"
                     android:text="Watch Now"
+                    android:textColor="@color/white"
                     android:textSize="23dp"
-                    android:textColor="@color/white"/>
+                    android:textStyle="bold" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>

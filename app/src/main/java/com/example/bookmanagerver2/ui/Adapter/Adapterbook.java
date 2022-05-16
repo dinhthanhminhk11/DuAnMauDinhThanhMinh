@@ -71,13 +71,9 @@ public class Adapterbook extends RecyclerView.Adapter<Adapterbook.ViewHolder>{
             holder.itemView.setOnClickListener(view ->{
                 final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(mContext, R.style.BottomSheetDialogTheme);
                 View bottomSheetView = LayoutInflater.from(mContext).inflate(R.layout.bottomsheet, (LinearLayout) bottomSheetDialog.findViewById(R.id.bottomsheetcontainer));
-
-
-
                 txtEdit = (TextView) bottomSheetView.findViewById(R.id.txt_edit);
                 txtAddPhieumuon = (TextView) bottomSheetView.findViewById(R.id.txt_addPhieumuon);
                 txtXoa = (TextView)bottomSheetView. findViewById(R.id.txt_Xoa);
-
 
                 txtEdit.setOnClickListener(view1 ->{
                     listener.onClickEdit(view , position);
@@ -91,9 +87,6 @@ public class Adapterbook extends RecyclerView.Adapter<Adapterbook.ViewHolder>{
                     listener.onClickDelete(view , position);
                     bottomSheetDialog.cancel();
                 });
-
-
-
                 bottomSheetView.findViewById(R.id.txt_Huy).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {

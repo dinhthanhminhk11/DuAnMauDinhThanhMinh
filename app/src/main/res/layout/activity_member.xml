@@ -11,7 +11,7 @@
     <com.google.android.material.tabs.TabLayout
         app:tabIconTint="@color/colorXanhSang"
         app:tabIconTintMode="src_atop"
-        app:tabBackground="@color/black"
+        app:tabBackground="@color/white2"
         app:tabIndicatorColor="@color/colorXanhSang"
         app:tabSelectedTextColor="@color/colorXanhSang"
         app:tabTextColor="@color/white"

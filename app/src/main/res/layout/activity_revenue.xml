@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/white2"
     android:orientation="vertical"
     tools:context=".ui.RevenueActivity">
     <include layout="@layout/tool_bar"
@@ -17,9 +17,9 @@
         >
         <soup.neumorphism.NeumorphCardView
             android:foreground="?android:attr/selectableItemBackground"
-            app:neumorph_backgroundColor="@color/colorxam"
-            app:neumorph_shadowColorLight="#30353B"
-            app:neumorph_shadowColorDark="#30353B"
+            app:neumorph_backgroundColor="@color/white2"
+            app:neumorph_shadowColorLight="@color/white"
+            app:neumorph_shadowColorDark="@color/white"
             android:id="@+id/btnStartDate"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -62,9 +62,9 @@
         <soup.neumorphism.NeumorphCardView
             android:foreground="?android:attr/selectableItemBackground"
             android:id="@+id/btnEndDate"
-            app:neumorph_backgroundColor="@color/colorxam"
-            app:neumorph_shadowColorLight="#30353B"
-            app:neumorph_shadowColorDark="#30353B"
+            app:neumorph_backgroundColor="@color/white2"
+            app:neumorph_shadowColorLight="@color/white"
+            app:neumorph_shadowColorDark="@color/white"
             android:layout_alignParentRight="true"
             android:layout_width="100dp"
             android:layout_height="100dp"

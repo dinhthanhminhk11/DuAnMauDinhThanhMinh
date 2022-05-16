@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/black"
+    android:background="@color/white2"
     tools:context=".ui.UpDateLoanSlipActivity">
     <include layout="@layout/tool_bar"
         />
@@ -24,7 +24,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:text="Update Loan Slip"
-                android:textColor="@color/white"
+                android:textColor="@color/red2"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -52,7 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Member: "
-                    android:textColor="@color/colorXanhSang"/>
+                    android:textColor="@color/red2"/>
                 <Spinner
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -168,6 +168,7 @@
 
                     />
             </LinearLayout>
+
             <Button
                 android:id="@+id/btDangKi"
                 android:layout_width="200dp"
@@ -179,7 +180,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:text="Submit"
                 android:textAllCaps="false"
-                android:textColor="@color/colorBackground"
+                android:textColor="@color/white"
                 app:backgroundTint="@null" />
 
             <LinearLayout

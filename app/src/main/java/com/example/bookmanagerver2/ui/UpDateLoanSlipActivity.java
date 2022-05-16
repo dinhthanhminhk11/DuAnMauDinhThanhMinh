@@ -117,7 +117,7 @@ public class UpDateLoanSlipActivity extends AppCompatActivity {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);
-                ((CheckedTextView) view).setTextColor(Color.rgb(92 , 224 , 254));
+                ((CheckedTextView) view).setTextColor(Color.rgb(152,4,45));
                 ((CheckedTextView) view).setTextSize(15);
                 return view;
             }
@@ -137,7 +137,7 @@ public class UpDateLoanSlipActivity extends AppCompatActivity {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);
-                ((CheckedTextView) view).setTextColor(Color.rgb(92 , 224 , 254));
+                ((CheckedTextView) view).setTextColor(Color.rgb(152,4,45));
                 ((CheckedTextView) view).setTextSize(15);
                 return view;
             }
@@ -157,7 +157,7 @@ public class UpDateLoanSlipActivity extends AppCompatActivity {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);
-                ((CheckedTextView) view).setTextColor(Color.rgb(92 , 224 , 254));
+                ((CheckedTextView) view).setTextColor(Color.rgb(152,4,45));
                 ((CheckedTextView) view).setTextSize(15);
                 return view;
             }

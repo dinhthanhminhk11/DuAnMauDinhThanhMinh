@@ -54,7 +54,6 @@ public class MemberActivity extends AppCompatActivity {
 
     private void initToolBar() {
         setSupportActionBar(toolBar);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setTitle("Member Manager");

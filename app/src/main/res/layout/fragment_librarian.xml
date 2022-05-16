@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/black"
+    android:background="#E1E2E7"
     tools:context=".ui.Fragment.LibrarianFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -34,19 +34,22 @@
         android:layout_margin="20dp"/>
 
     <Button
-        android:foreground="?android:attr/selectableItemBackground"
-        app:backgroundTint="@null"
-        android:backgroundTint="@null"
-        android:background="@drawable/gradient_button3"
+        android:id="@+id/btnAddKindofbook"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:id="@+id/btnAddKindofbook"
-        android:text="+"
-        android:textColor="@color/white"
-        android:layout_gravity="center"
-        android:layout_margin="18dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:textSize="18dp"/>
+        android:layout_gravity="center"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/gradient_button3"
+        android:backgroundTint="@null"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:backgroundTint="@null" />
 
 </RelativeLayout>

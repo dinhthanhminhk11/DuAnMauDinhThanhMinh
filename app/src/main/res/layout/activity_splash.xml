@@ -5,30 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/black"
+    android:background="#E1E2E7"
+    android:gravity="center"
     tools:context=".ui.SplashActivity">
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/logoHomePageActivity"
         android:layout_width="wrap_content"
         android:layout_height="230dp"
-        android:layout_marginTop="204dp"
         android:background="@null"
         android:backgroundTint="@null"
         android:backgroundTintMode="@null"
         app:lottie_autoPlay="true"
-        app:lottie_fileName="logohomepage.json"
+        app:lottie_fileName="logosplash.json"
         app:lottie_loop="true" />
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/loading"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:background="@null"
-        android:backgroundTint="@null"
-        android:backgroundTintMode="@null"
-        app:lottie_autoPlay="true"
-        app:lottie_fileName="loadinghomepage.json"
-        app:lottie_loop="true" />
+
 
 </LinearLayout>

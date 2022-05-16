@@ -10,7 +10,7 @@
     android:backgroundTint="@null"
     android:backgroundTintMode="@null"
     app:lottie_autoPlay="true"
-    app:lottie_fileName="loadingdd.json"
+    app:lottie_fileName="lding.json"
     app:lottie_loop="true">
 
 

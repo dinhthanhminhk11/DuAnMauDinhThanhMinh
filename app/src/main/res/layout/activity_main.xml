@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
-            android:layout_marginTop="40dp"
+            android:background="#98042D"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -25,7 +25,7 @@
                 android:layout_height="65dp"
                 android:src="@drawable/anhlogo"
                 app:civ_border_width="3dp"
-                app:civ_border_color="@color/colorXanhSang"/>
+                app:civ_border_color="@color/white"/>
             <TextView
 
                 android:layout_marginLeft="30dp"
@@ -34,7 +34,7 @@
                 android:text="Welcome Librarian"
                 android:textSize="23dp"
                 android:textStyle="bold"
-                android:textColor="@color/colorXanhSang"/>
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/idUser"
                 android:layout_marginLeft="30dp"
@@ -43,13 +43,13 @@
                 android:text="Đinh Thanh Minh"
                 android:textSize="16dp"
                 android:layout_marginTop="5dp"
-                android:textColor="@color/colorXanhSang"/>
+                android:textColor="@color/white"/>
             <View
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="30dp"
                 android:layout_width="250dp"
                 android:layout_height="0.5dp"
-                android:background="@color/colorXanhSang" />
+                android:background="@color/white" />
             <LinearLayout
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_marginLeft="30dp"
@@ -83,7 +83,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/phieumuon"/>
+                    android:src="@drawable/ic_baseline_laptop_chromebook_24"/>
                 <TextView
                     android:layout_marginLeft="20dp"
                     android:layout_gravity="center"
@@ -105,7 +105,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/loaisach"/>
+                    android:src="@drawable/ic_baseline_library_books_24"/>
                 <TextView
                     android:layout_marginLeft="20dp"
                     android:layout_gravity="center"
@@ -127,7 +127,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/book2"/>
+                    android:src="@drawable/ic_baseline_menu_book_24"/>
                 <TextView
                     android:layout_marginLeft="20dp"
                     android:layout_gravity="center"
@@ -149,7 +149,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/thanhvien"/>
+                    android:src="@drawable/ic_baseline_person_24_ver2"/>
                 <TextView
                     android:layout_marginLeft="20dp"
                     android:layout_gravity="center"
@@ -165,7 +165,7 @@
                 android:layout_marginHorizontal="30dp"
                 android:layout_width="250dp"
                 android:layout_height="0.5dp"
-                android:background="@color/colorXanhSang" />
+                android:background="@color/white" />
             <LinearLayout
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_marginLeft="30dp"
@@ -177,7 +177,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/top10"/>
+                    android:src="@drawable/ic_baseline_10mp_24"/>
                 <TextView
                     android:layout_marginLeft="20dp"
                     android:layout_gravity="center"
@@ -199,7 +199,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/money"/>
+                    android:src="@drawable/ic_baseline_money_24"/>
                 <TextView
                     android:layout_marginLeft="20dp"
                     android:layout_gravity="center"
@@ -215,7 +215,7 @@
                 android:layout_marginHorizontal="30dp"
                 android:layout_width="250dp"
                 android:layout_height="0.5dp"
-                android:background="@color/colorXanhSang" />
+                android:background="@color/white" />
             <LinearLayout
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_marginLeft="30dp"
@@ -227,7 +227,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/lock"/>
+                    android:src="@drawable/ic_baseline_lock_24_mainver2"/>
                 <TextView
                     android:layout_marginLeft="20dp"
                     android:layout_gravity="center"
@@ -249,7 +249,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/logout"/>
+                    android:src="@drawable/ic_baseline_logout_24"/>
                 <TextView
                     android:layout_marginLeft="20dp"
                     android:layout_gravity="center"
